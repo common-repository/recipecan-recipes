@@ -1,0 +1,11 @@
+<h2>Add a new Recipe</h2>
+
+{{>recipe_form}}
+
+<script>
+    jQuery('#recipecan_new_recipe_form').submit(function () {
+        jQuery('#recipecan_loading').show().css({paddingBottom: '10px'});
+    });
+</script>
+
+
